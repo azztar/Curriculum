@@ -410,6 +410,8 @@ section {
 /*--------------------------------------------------------------
 # Akills
 --------------------------------------------------------------*/
+
+
 .skills .progress {
   height: 60px;
   display: block;
@@ -442,6 +444,20 @@ section {
   height: 10px;
   transition: 0.9s;
   background-color: #149ddd;
+}
+.skill-item {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.skill-img {
+  width: 100px;
+  height: 100px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.skill-img:hover {
+  transform: scale(1.1);
 }
 
 /*--------------------------------------------------------------
@@ -605,6 +621,24 @@ section {
   opacity: 1;
   bottom: 0;
 }
+
+.portfolio-img {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.portfolio-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.portfolio-links a {
+  transition: transform 0.3s ease-in-out;
+}
+
+.portfolio-links a:hover {
+  transform: scale(1.2);
+}
+
 
 /*--------------------------------------------------------------
 # Portfolio Details
